@@ -1,0 +1,44 @@
+.skills>h1 {
+    font-size: 2.5rem;
+    text-decoration: underline aqua 2px;
+    text-underline-offset: 8px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    padding: 5% 10%;
+    margin: 0;
+}
+
+.skills-common {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 40px;
+    background-color: #282c34;
+    padding: 10% 5%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.skills-img {
+    background-color: #282c34;
+}
+
+.skills-img img {
+    background-color: #282c34;
+    width: 80px;
+    height: 80px;
+}
+
+
+@media screen and (max-width:600px) {
+    .skills>h1 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .skills-common {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        padding: 15% 0;
+    }
+}
