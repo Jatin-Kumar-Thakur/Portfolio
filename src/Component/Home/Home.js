@@ -36,7 +36,7 @@ export default function Home() {
                         </h3>
                         <br />
                         <span className='button'>
-                            <button><Link href="#about-component">Know More </Link> </button> <span>  </span>
+                            <button><Link smooth to="#about-component">Know More </Link> </button> <span>  </span>
                             {/* <button><a href="/">Resume (CV)</a> </button> */}
                         </span>
                         <div className='social-media'>
