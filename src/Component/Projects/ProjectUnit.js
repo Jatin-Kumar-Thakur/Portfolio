@@ -62,7 +62,7 @@ export default function ProjectUnit() {
                         <p id='project-tech'>{prop.tech}</p>
                         <div className="links">
                             <a href={prop.link1} target="_blank" rel="noopener noreferrer">GitHub</a>
-                            <a href={prop.link2} target="_blank" rel="noopener noreferrer">View</a>
+                            <a href={prop.link2} target="_blank" rel="noopener noreferrer">View Website</a>
                         </div>
                     </div>
                     <div className="project-bar project-section2">

@@ -21,7 +21,7 @@
     flex-direction: row-reverse;
 }
 
-.project-section {
+.project-section1 , .project-section3 {
     box-shadow: rgb(0, 255, 255, 0.35) 0px 5px 15px;
     padding: 20px;
     margin: 80px;
@@ -91,6 +91,7 @@
         flex-direction: column;
         flex-direction: column-reverse;
         margin: 40px 0;
+        box-shadow: rgb(0, 255, 255, 0.35) 0px 5px 15px;
     }
 
     .project-main h1 {
@@ -106,14 +107,16 @@
 
     .project-section1 {
         width: 100%;
+        box-shadow: none;
     }
-
+    
     .project-section2 {
         display: none;
     }
-
+    
     .project-section3 {
         width: 100%;
+        box-shadow: none;
     }
 
     .bar-icon {

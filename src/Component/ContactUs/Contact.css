@@ -55,23 +55,34 @@
     height: 2.5rem;
     font-size: 1rem;
     border-radius: 0.375rem;
-    border: 2px solid transparent;
+    border: 2px solid gray;
     padding: 2px 5px;
     background-color: #282c34a2;
     transition: all 0.5s;
+    
+}
+.section-container input:focus{
+    /* border:2px solid aqua; */
+    background-color: rgb(0, 255, 255);
+    color: black;
+}
+.section-container textarea:focus{
+    /* border:2px solid aqua; */
+    background-color: rgb(0, 255, 255);
+    color: black;
 }
 .section-container textarea{
     resize: none;
     height: 150px;
     width: 100%;
 }
-.section-container input:hover{
+/* .section-container input:hover{
     background-color: #282c34;
-}
-.section-container textarea:hover{
+} */
+/* .section-container textarea:hover{
     background-color: #282c34;
     
-}
+} */
 .contact-button{
     display: inline-flex;
     align-items: center;
@@ -97,4 +108,45 @@
         padding: 0 5% 5% 3%;
     }
     
+}
+
+.submit-main{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: none;
+    background-color: red;
+    padding: 0;
+    margin: 0 !important;
+    border-radius: 10px;
+}
+.submit-main-show{
+    display: block !important;
+}
+.submit-container{
+    border-radius: 10px;
+}
+.submit-popup{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #273043;
+}
+.submit-popup p{
+    background-color: #273043;
+}
+.submit-popup button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 100px;
+    width: 100px;
+    border: transparent;
+    text-align: center;
+    transition: all 0.5s;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.submit-popup button:hover{
+    background-color: rgba(0, 255, 255, 0.621);
+    color: black;
 }

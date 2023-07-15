@@ -1,6 +1,6 @@
 import './Footer.css'
 import React from 'react'
-import { BiPhoneCall, BiMailSend, BiCurrentLocation } from "react-icons/bi";
+import { BiMailSend, BiCurrentLocation } from "react-icons/bi";
 import { AiFillLinkedin, AiFillMail, AiFillInstagram, AiFillGithub, AiFillTwitterSquare } from "react-icons/ai";
 import { HashLink as Link } from 'react-router-hash-link'
 import { BrowserRouter } from 'react-router-dom'
@@ -29,10 +29,10 @@ export default function Footer() {
                     </div>
                     <div className="footer-section3">
                         <h1>Contact Info</h1>
-                        <p>
+                        {/* <p>
                             <span><BiPhoneCall /> </span>
                             <span><a href="/"> +91 6376657502</a></span>
-                        </p>
+                        </p> */}
                         <p>
                             <span><BiMailSend /> </span>
                             <span><a href="/"> 63.jatin@gmail.com</a></span>
@@ -42,11 +42,11 @@ export default function Footer() {
                             <span><a href="/"> Indore,MadhyaPradesh,India</a></span>
                         </p>
                         <div className='social-media'>
-                            <span><a href="/"><AiFillLinkedin className="icon-style" /></a></span>
-                            <span><a href="/"><AiFillGithub /></a></span>
-                            <span><a href="/"><AiFillInstagram /></a></span>
-                            <span><a href="/"><AiFillMail /></a></span>
-                            <span><a href="/"><AiFillTwitterSquare /></a></span>
+                            <span><a href="https://www.linkedin.com/in/jatinkumar63/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className="icon-style" /></a></span>
+                            <span><a href="https://github.com/Jatin-Kumar-Thakur" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a></span>
+                            <span><a href="https://www.instagram.com/jatinthakur807/" target="_blank" rel="noopener noreferrer"><AiFillInstagram /></a></span>
+                            <span><a href="mailto: 63.jatin@gmail.com" target="_blank" rel="noopener noreferrer"><AiFillMail /></a></span>
+                            <span><a href="https://twitter.com/JatinTh84357223" target="_blank" rel="noopener noreferrer"><AiFillTwitterSquare /></a></span>
                         </div>
                     </div>
                 </div>
