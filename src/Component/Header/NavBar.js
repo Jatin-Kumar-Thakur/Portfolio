@@ -15,7 +15,7 @@ export default function NavBar() {
         <BrowserRouter>
             <div className="header-container">
                 <div className="header-logo">
-                    <a href="/"><img src={logo} alt="Jatin" /></a>
+                    <a href="https://jatin-kumar-thakur.github.io/portfolio/"><img src={logo} alt="Jatin" /></a>
                     <div className="menu-bar">
                         <GiHamburgerMenu onClick={toggleNav} />
                     </div>
