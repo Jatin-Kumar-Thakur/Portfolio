@@ -37,7 +37,7 @@ export default function Home() {
                         <br />
                         <span className='button'>
                             <button><Link smooth to="#about-component">Know More </Link> </button> <span>  </span>
-                            {/* <button><a href="/">Resume (CV)</a> </button> */}
+                            <button><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1soPvAHQr9NWxPhUkkTS6BhetjPkYQkw7/view?usp=drive_link">Resume (CV)</a> </button>
                         </span>
                         <div className='social-media'>
                             <span><a href="https://www.linkedin.com/in/jatinkumar63/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className="icon-style" /></a></span>
