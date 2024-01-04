@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import ima from '../Assets/Asset_4.jpg'
 import translator from '../Assets/Asset_5.jpg'
 import bookstore from '../Assets/Asset_6.jpg'
+import movieMania from '../Assets/Movie-mania.png'
 
 
 export default function ProjectUnit() {
@@ -13,6 +14,18 @@ export default function ProjectUnit() {
         AOS.init({ duration: 1000 });
       }, []);
     const data=[
+        {
+            id:4,
+            name:"Movie Mania",
+            description:" I have designed and developed a Real-time Movie Data: Utilized TMDB API to provide up-to-date movie information. User-Friendly Interface: Designed an intuitive and visually appealing UI for easy navigation.Ensured compatibility with various devices for seamless user interaction.Utilized ReactJS routing for smooth, client-side navigation.",
+            tech:"ReactJs TMDBApi",
+            link1:"https://github.com/Jatin-Kumar-Thakur/movie-maniax",
+            link2:"https://moviemaniax.netlify.app/",
+            image:movieMania,
+            val:0,
+            fade1:"fade-right",
+            fade2:"fade-left"
+        },
         {
             id:1,
             name:"Personal Portfolio",
